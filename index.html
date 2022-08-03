@@ -1,0 +1,52 @@
+<html lang="pt-br">
+<head>
+  <title>Button</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <script src="main.js"></script>
+</head>
+<body id="bodyCor">
+<div><br><br><br><br><br></div>
+<center>
+  <h1 style="color:white;"> IMC</h1>
+  <br>
+<div class="form">
+<form>
+    <div class="user-box login-box">
+      <label>Nome</label><br>
+      <input id="nome" type="text" name="" required="" placeholder="Larissa">      
+    </div><br>
+      <div class="user-box login-box">
+        <label>Peso em kg</label><br>
+      <input id="peso" type="text" name="" required="" placeholder="69">      
+    </div><br>
+      <div class="user-box login-box">
+        <label>Altura em metro</label><br>
+      <input id="altura" type="text" name="" required="" placeholder="1.65">      
+    </div>
+  <br>
+  <button type="button" id="meuBotao" class="btn " style="background-color: #ff80b3; color:white; width: 200px; outline: none !important;"  onmouseover="this.style.backgroundColor='#ff80b3';this.style.color='#ffffff'; this.style.border='none';" onmouseleave=" this.style.backgroundColor='#ffffff';this.style.color='#ff80b3';this.style.border='none';" onclick="imc()"><b>Calcular</b>
+    </button>
+</form> 
+  <br>
+  <br>
+  <p id="resultado"></p>
+  <p id="mensagem"></p>
+  <br>
+  <img src="https://i.postimg.cc/0279d8p3/imc.jpg" style="width:90%">
+  <br>
+  <br>
+</div>
+  <div>
+    <h5 style="color:white;"> Ⓒ 2022 Criado por <a href="https://www.linkedin.com/in/larissa-soares-silva-17883b23/" target="_blank" style="color:white;">Larissa</a></h5>
+    </div>
+  </center>
+  <br>
+</body>
+</html>
